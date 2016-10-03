@@ -3,11 +3,10 @@
  **/
 public class Calculator {
     /**
-     * Method main is point of entry,
-     * input numbers and check them for nothing was inputted
-     * calls method OutputResults.
+     * Method main is point of entry,input numbers and check them for nothing
+     * was inputted calls method OutputResults.
      *
-     * @param args
+     * @param args is input from command line
      */
     public static void main(String[] args) {
         double number1 = 0;
@@ -16,24 +15,21 @@ public class Calculator {
         System.out.println("WARNING: if you do not input any number, number will default = 0 ");
         if (args.length != 0) {
             number1 = Double.parseDouble(args[0]);
-            System.out.println("1st number is = " + number1);
-        } else System.out.println("You inputted nothing = ");
-
-        if (args.length != 0) {
             number2 = Double.parseDouble(args[1]);
+            System.out.println("1st number is = " + number1);
             System.out.println("2nd number is = " + number2);
-        } else System.out.println("You inputted nothing = ");
+        } else {
+            System.out.println("You inputted nothing = ");
+        }
         OutputResults(number1, number2);
     }
 
     /**
-     * Method which calculate
-     * Sum, Difference, Composition and Private
-     * checks dividing number by zero,
-     * output results of Math Operations.
+     * Method which calculate Sum, Difference, Composition and Private
+     * checks dividing number by zero, output results of Math Operations.
      *
-     * @param n1
-     * @param n2
+     * @param n1 is number1
+     * @param n2 is number2
      */
 
     public static void OutputResults(double n1, double n2) {
@@ -53,8 +49,9 @@ public class Calculator {
 
         if (Double.isFinite(privat)) {
             System.out.println("Private is = " + (privat));
-        } else
+        } else {
             System.out.println("Error, you can't divide by zero");
+        }
     }
 }
 
