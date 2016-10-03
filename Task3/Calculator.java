@@ -1,34 +1,28 @@
 /**
- * Including library for Scanner
- * which can parse strings
- * using regular expressions.
- */
-
-import java.util.Scanner;
-
-/**
- * Class which takes the numbers from CommandLine
- * by user whose types them from keyboard.
- * If user type symbols, the number will be = 0.
- */
-
+ * Output parameters of command line in the opposite order
+ **/
 public class Calculator {
+    /**
+     * Method main is point of entry,
+     * input numbers and check them for nothing was inputted
+     * calls method OutputResults.
+     *
+     * @param args
+     */
     public static void main(String[] args) {
         double number1 = 0;
         double number2 = 0;
         System.out.println("Input a number, please ");
-        System.out.println("WARNING: if you input not a number, number will default = 0 ");
-        Scanner scanner = new Scanner(System.in);
-        if (scanner.hasNextDouble()) {
-            number1 = scanner.nextDouble();
+        System.out.println("WARNING: if you do not input any number, number will default = 0 ");
+        if (args.length != 0) {
+            number1 = Double.parseDouble(args[0]);
             System.out.println("1st number is = " + number1);
-        } else
-            System.out.println("You inputted not a number, number is default");
-        if (scanner.hasNextDouble()) {
-            number2 = scanner.nextDouble();
+        } else System.out.println("You inputted nothing = ");
+
+        if (args.length != 0) {
+            number2 = Double.parseDouble(args[1]);
             System.out.println("2nd number is = " + number2);
-        } else
-            System.out.println("You inputted not a number, number is default");
+        } else System.out.println("You inputted nothing = ");
         OutputResults(number1, number2);
     }
 
@@ -41,7 +35,7 @@ public class Calculator {
      * @param n1
      * @param n2
      */
-    
+
     public static void OutputResults(double n1, double n2) {
         System.out.println();
         System.out.println("Math operations: ");
@@ -56,12 +50,14 @@ public class Calculator {
         System.out.println("Composition is = " + (composition));
         double privat;
         privat = (n1 / n2);
-        if (Double.isInfinite(sum)) {
+
+        if (Double.isFinite(privat)) {
             System.out.println("Private is = " + (privat));
         } else
             System.out.println("Error, you can't divide by zero");
     }
 }
+
 
 
 
