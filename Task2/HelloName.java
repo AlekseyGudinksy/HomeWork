@@ -1,17 +1,17 @@
 /**
- * Class which output Hello, NAME
- * NAME takes as arguments from
- * command line.
+ * Class which output Hello, Name, Name takes as arguments from command line.
  */
-
 public class HelloName {
     /**
      * Method main is point of entry.
      *
-     * @param args
+     * @param args is input argument from command line
      */
     public static void main(String[] args) {
-        int i = args.length - 1;
-        System.out.println("Hello, " + args[i]);
+        System.out.print("Hello, ");
+        for (int i = 0; i < args.length; i++) {
+            System.out.print(args[i]);
+        }
+        System.out.println();
     }
 }
