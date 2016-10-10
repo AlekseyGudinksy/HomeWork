@@ -19,7 +19,7 @@ public class WithoutNumbers extends Rules {
      * missing a number by regular expression
      */
     public void checkRule() {
-        if (s.matches("^[^\\d]+$")) {
+        if (s.matches("^\\D+$")) {
             System.out.println("Input data doesn't has any number. Rule 1");
         }
     }

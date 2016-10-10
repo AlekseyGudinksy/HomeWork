@@ -1,5 +1,8 @@
 package bsu.rfikt.tat;
 
+import java.util.regex.Matcher;
+import java.util.regex.Pattern;
+
 /**
  * Class check input line for a word from a vocabulary
  * Rule 4
@@ -19,14 +22,17 @@ public class ContainWord extends Rules {
      * and equals each word with word from vocabulary
      */
     public void checkRule() {
-        String vocabulary = ("OOP");
-        for (String words : s.split("( |\\. |,|, )")) {
-            if (vocabulary.equals(words)) {
-                System.out.println("This word I saw in my vocabulary: " + vocabulary + " Rule 4");
+        String[] vocabulary = {"OOP", "is", "a", "magic", "thing"};
+        for (String words : s.split("[\\.,?!()\\s\\-]+")) {
+            for (String voc : vocabulary) {
+                if (words.equalsIgnoreCase(voc)) {
+                    System.out.println("This word I saw in my vocabulary: " + voc + " Rule 4");
+                }
             }
         }
     }
 }
+
 
 
 
