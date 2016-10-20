@@ -24,12 +24,12 @@ public class Calculator {
     private static final String COMPOSITION = "Composition is = ";
     private static final String PRIVATE = "Private is = ";
     private static final String DIVIDE_BY_ZERO = "ERROR: you can't divide by zero";
-
+    private static double number1;
+    private static double number2;
 
     public static void main(String[] args) {
         try {
-            double number1 = 0;
-            double number2 = 0;
+
             System.out.println(START_MESSAGE);
             if (args.length != 0) {
                 number1 = Double.parseDouble(args[0]);
@@ -49,23 +49,22 @@ public class Calculator {
      * Method which calculate Sum, Difference, Composition and Private
      * checks dividing number by zero, output results of Math Operations.
      *
-     * @param n1 is number1
-     * @param n2 is number2
+     * @param number1 is fist inputted number
+     * @param number2 is second inputted number
      */
-
-    public static void OutputResults(double n1, double n2) {
+    public static void OutputResults(double number1, double number2) {
         System.out.println(EXPRESSIONS);
         double sum;
-        sum = (n1 + n2);
+        sum = (number1 + number2);
         System.out.println(SUM + sum);
         double difference;
-        difference = (n1 - n2);
+        difference = (number1 - number2);
         System.out.println(DIFFERENCE + difference);
         double composition;
-        composition = (n1 * n2);
+        composition = (number1 * number2);
         System.out.println(COMPOSITION + composition);
         double privat;
-        privat = (n1 / n2);
+        privat = (number1 / number2);
 
         if (Double.isFinite(privat)) {
             System.out.println(PRIVATE + privat);
