@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<suite name="Transport Suite">
+    <test name="Car Test">
+        <classes>
+            <class name="bsu.tat.CarTest"/>
+        </classes>
+    </test><!-- Car Test -->
+    <test name="Bus Test">
+        <classes>
+            <class name="bsu.tat.BusTest"/>
+        </classes>
+    </test><!-- Bus Test -->
+    <test name="Walker Test">
+        <classes>
+            <class name="bsu.tat.WalkerTest"/>
+        </classes>
+    </test><!-- Walker Test -->
+    <test name="Bike Test">
+        <classes>
+            <class name="bsu.tat.BikeTest"/>
+        </classes>
+    </test><!-- Bike Test -->
+</suite>
