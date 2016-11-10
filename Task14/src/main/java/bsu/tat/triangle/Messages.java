@@ -6,16 +6,17 @@ package bsu.tat.triangle;
  * @author Aleksey Gudinsky
  */
 public class Messages {
-    static Messages msg = new Messages();
-    final String HELLO = "Input value of triangle side's";
-    final String EQUILATERAL = "Triangle is Equilateral";
-    final String ISOSCELES = "Triangle is Isosceles";
-    final String USUAL = "Triangle is Usual";
-    final String SYMBOL_INPUT = "You inputted symbols, not a number";
-    final String LENGTH_OF_A_SIDE = "Length of side a is = ";
-    final String LENGTH_OF_B_SIDE = "Length of side b is = ";
-    final String LENGTH_OF_C_SIDE = "Length of side c is = ";
-    final String TRIANGLE_DONOT_EXIST = "Triangle can't have that length of sides";
-    final String NEGATIVE_LENGTH = "Triangle can't have a side less then 0";
-    final String ZERO_LENGTH = "Triangle can't have a side equal to 0";
+    final static String HELLO = "Input value of triangle side's";
+    final static String EQUILATERAL = "Triangle is Equilateral";
+    final static String ISOSCELES = "Triangle is Isosceles";
+    final static String USUAL = "Triangle is Usual";
+    final static String SYMBOL_INPUT = "You inputted symbols, not a number";
+    final static String LENGTH_OF_A_SIDE = "Length of side a is = ";
+    final static String LENGTH_OF_B_SIDE = "Length of side b is = ";
+    final static String LENGTH_OF_C_SIDE = "Length of side c is = ";
+    final static String TRIANGLE_DONOT_EXIST = "Triangle can't have that length of sides";
+    final static String TRIANGLE_EXIST = "Triangle exist.";
+    final static String NEGATIVE_LENGTH = "Triangle can't have a side less then 0";
+    final static String ZERO_LENGTH = "Triangle can't have a side equal to 0";
+    final static String ERROR = "Error.";
 }

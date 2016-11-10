@@ -44,9 +44,9 @@ public class TriangleTest {
 //        }
 //        return result;
 //    }
-    
-    
-    
+
+
+
     @DataProvider(name = "testTypePositive")
     public Object[][] PositiveTest() {
         return new Object[][]{
