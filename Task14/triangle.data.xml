@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<data>
+<positive argument="0" side_a="1.2" side_b="2.2" side_c="3.2"/>
+<positive argument="2" side_a="2.2" side_b="2.2" side_c="3.2"/>
+<positive argument="2" side_a="3.2" side_b="2.2" side_c="2.2"/>
+<positive argument="2" side_a="2.2" side_b="3.2" side_c="2.2"/>
+<positive argument="3" side_a="2.2" side_b="2.2" side_c="2.2"/>
+<negative argument="0" side_a="1.2" side_b="1.2" side_c="3.2"/>
+<negative argument="0" side_a="3.2" side_b="1.2" side_c="1.2"/>
+<negative argument="0" side_a="1.2" side_b="3.2" side_c="1.2"/>
+<negative argument="0" side_a="1.2" side_b="1.2" side_c="1.2"/>
+<negative argument="2" side_a="2.2" side_b="2.2" side_c="2.2"/>
+<negative argument="2" side_a="1.2" side_b="2.2" side_c="3.2"/>
+<negative argument="3" side_a="2.2" side_b="2.2" side_c="3.2"/>
+<negative argument="3" side_a="3.2" side_b="2.2" side_c="2.2"/>
+<negative argument="3" side_a="2.2" side_b="3.2" side_c="2.2"/>
+<negative argument="3" side_a="1.2" side_b="2.2" side_c="3.2"/>
+</data>
