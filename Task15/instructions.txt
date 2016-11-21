@@ -1,0 +1,5 @@
+open "http://www.google.com" "3"
+checkLinkPresentByHref "href"
+checkLinkPresentByName "link name"
+checkPageTitle "Google Search Page"
+checkPageContains "The best search engine"
