@@ -1,0 +1,31 @@
+
+{
+    "commands": 
+    [
+        {
+        "command": "open",
+        "arg": "http://www.google.com",
+        "arg": "3"
+        }
+
+        {
+            "command": "checkLinkPresentByHref",
+            "arg": "href"
+        }
+
+        {
+            "command": "checkLinkPresentByName",
+            "arg": "link name"
+        }
+
+        {
+            "command": "checkPageTitle",
+            "arg": "Google Search Page"
+        }
+
+        {
+            "command": "checkPageContains",
+            "arg": "The best search engine"
+        }
+    ]
+}
