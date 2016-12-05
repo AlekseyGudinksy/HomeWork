@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="13594" started-at="2016-12-05T14:48:17Z" finished-at="2016-12-05T14:48:30Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="13594" started-at="2016-12-05T14:48:17Z" finished-at="2016-12-05T14:48:30Z">
+      <class name="bsu.tat.release.MainPageTest">
+        <test-method status="PASS" signature="HelloWorldTest()[pri:0, instance:bsu.tat.release.MainPageTest@100fc185]" name="HelloWorldTest" duration-ms="2665" started-at="2016-12-05T17:48:21Z" finished-at="2016-12-05T17:48:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- HelloWorldTest -->
+        <test-method status="PASS" signature="PostContentTest()[pri:0, instance:bsu.tat.release.MainPageTest@100fc185]" name="PostContentTest" duration-ms="2604" started-at="2016-12-05T17:48:24Z" finished-at="2016-12-05T17:48:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostContentTest -->
+        <test-method status="PASS" signature="SiteDescription()[pri:0, instance:bsu.tat.release.MainPageTest@100fc185]" name="SiteDescription" duration-ms="2475" started-at="2016-12-05T17:48:26Z" finished-at="2016-12-05T17:48:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SiteDescription -->
+        <test-method status="PASS" signature="seleniumTest()[pri:0, instance:bsu.tat.release.MainPageTest@100fc185]" name="seleniumTest" duration-ms="1557" started-at="2016-12-05T17:48:29Z" finished-at="2016-12-05T17:48:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- seleniumTest -->
+      </class> <!-- bsu.tat.release.MainPageTest -->
+      <class name="bsu.tat.release.LogOutTest">
+        <test-method status="PASS" signature="UserLogOutTest()[pri:0, instance:bsu.tat.release.LogOutTest@402f32ff]" name="UserLogOutTest" duration-ms="1380" started-at="2016-12-05T17:48:20Z" finished-at="2016-12-05T17:48:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogOutTest -->
+      </class> <!-- bsu.tat.release.LogOutTest -->
+      <class name="bsu.tat.release.LogInTest">
+        <test-method status="PASS" signature="UserLogInTest()[pri:0, instance:bsu.tat.release.LogInTest@643b1d11]" name="UserLogInTest" duration-ms="2898" started-at="2016-12-05T17:48:17Z" finished-at="2016-12-05T17:48:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserLogInTest -->
+      </class> <!-- bsu.tat.release.LogInTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
