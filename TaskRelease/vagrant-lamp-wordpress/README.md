@@ -10,9 +10,8 @@ All you have to do is do one thing
 1 Run go.sh script in command line
 
 -------------------------------------------------------------------------------------
-| It is build on Mac OS, that's why if you want to use this script on linux system, |
-| you need to change chromedriver powered by mac os version to linux. 				|
--------------------------------------------------------------------------------------
+ It is build on Mac OS, that's why if you want to use this script on linux system, 
+ you need to change chromedriver powered by mac os version to linux. 
 
 Requirements
 ------------
