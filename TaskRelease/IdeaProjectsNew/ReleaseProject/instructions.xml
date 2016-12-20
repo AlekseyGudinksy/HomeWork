@@ -1,7 +1,0 @@
-<commands>
-<command>open</command> <arg>"http://www.google.com"</arg> <arg>"3"</arg>
-<comand>checkLinkPresentByHref</comand> <arg>"href"</arg>
-<command>checkLinkPresentByName</command> <arg>"link name"</arg>
-<command>checkPageTitle</command> <arg>"Google Search Page"</arg>
-<command>checkPageContains</command> <arg>"The best search engine"</arg>
-</commands>

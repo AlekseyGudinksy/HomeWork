@@ -1,13 +1,11 @@
+#!/bin/bash
+
 cd vagrant-lamp-wordpress
 vagrant up
-cd ..
-cd IdeaProjectsNew/ReleaseProject
+cd ../IdeaProjectsNew/ReleaseProject
 mvn clean
 mvn test
-cd ..
-cd ..
-cd vagrant-lamp-wordpress
+cd ../../vagrant-lamp-wordpress
 vagrant halt
-cd ..
-cd IdeaProjectsNew/ReleaseProject/target/surefire-reports
+cd ../IdeaProjectsNew/ReleaseProject/target/surefire-reports
 open emailable-report.html
